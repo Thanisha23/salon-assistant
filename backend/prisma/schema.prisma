@@ -1,0 +1,27 @@
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model HelpRequest {
+  id         String     @id @default(cuid())
+  question   String
+  caller_id  String?
+  request_id String?
+  status     HelpStatus @default(PENDING)
+  answer     String?
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+}
+
+enum HelpStatus {
+  PENDING
+  RESOLVED
+  UNRESOLVED
+}
