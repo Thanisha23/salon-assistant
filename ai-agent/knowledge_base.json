@@ -16,27 +16,51 @@
     "answer": "We're located at 123 Style Street, Downtown Area."
   },
   {
-    "question": "do you offer coloring",
-    "answer": "Yes, we offer a full range of coloring services including highlights, balayage, and all-over color. Prices start at $85."
+    "question": "name of hair stylist",
+    "answer": "Thanisha"
   },
   {
-    "question": "do you have hair treatments",
-    "answer": "Yes, we offer a variety of hair treatments including deep conditioning, keratin treatments, and hair masks to address different hair concerns."
+    "question": "discount offers pls",
+    "answer": "15%"
   },
   {
-    "question": "what payment methods do you accept",
-    "answer": "We accept all major credit cards, cash, Apple Pay, and Google Pay."
+    "question": "appointment",
+    "answer": "sds"
   },
   {
-    "question": "do i need to tip",
-    "answer": "Tipping is appreciated but not required. A standard tip for your stylist is typically 15-20% of your service cost."
+    "question": "lunch coupons available?",
+    "answer": "sds"
   },
   {
-    "question": "do you sell products",
-    "answer": "Yes, we sell professional hair care products from brands like Olaplex, Redken, Kerastase, and Moroccan Oil."
+    "question": "what is the agent name",
+    "answer": "salon-ai"
   },
   {
-    "question": "do you have parking",
-    "answer": "Yes, we have a free parking lot behind our building, and there's also street parking available."
+    "question": "hair colors available",
+    "answer": "blue, pink, black"
+  },
+  {
+    "question": "do u guys provide home services?",
+    "answer": "yes we do!"
+  },
+  {
+    "question": "could i get a keratin treatment done here",
+    "answer": "yes"
+  },
+  {
+    "question": "is there loyalty or membership program available?",
+    "answer": "yes!"
+  },
+  {
+    "question": "is the loyalty program available",
+    "answer": "yes!"
+  },
+  {
+    "question": "do u have organic or vegan product options?",
+    "answer": "yes we do provide these options"
+  },
+  {
+    "question": "any covid-19 safety protocols?",
+    "answer": "yes!"
   }
 ]

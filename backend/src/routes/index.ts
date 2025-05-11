@@ -1,8 +1,10 @@
 import { Router } from "express";
-import helpRequestsRouter from "../routes/helpRequests";
+import helpRequestsRouter from "./helpRequests.route";
+import knowledgeRouter from "./knowledge.route";
 
-const rootRouter = Router({mergeParams: true});
+const rootRouter = Router({mergeParams:true});
 
-rootRouter.use("/helpreq", helpRequestsRouter)
+rootRouter.use("/knowledge", knowledgeRouter);
+rootRouter.use("/helpreq", helpRequestsRouter);
 
-export default rootRouter
+export default rootRouter;

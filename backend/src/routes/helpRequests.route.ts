@@ -3,8 +3,8 @@ import { getHelpRequests, helpRequests, resolveHelpRequest } from "../controller
 
 const helpRequestsRouter = Router({mergeParams: true});
 
-helpRequestsRouter.post("/", helpRequests);
 helpRequestsRouter.get("/", getHelpRequests);
+helpRequestsRouter.post("/", helpRequests);
 helpRequestsRouter.patch("/:id", resolveHelpRequest);
 
 

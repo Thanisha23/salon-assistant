@@ -8,14 +8,20 @@ with open('knowledge_base.json', 'r') as f:
 
 def find_answer(user_input):
     """Find answer from knowledge base with improved matching"""
+    try:
+        with open('knowledge_base.json', 'r') as f:
+            kb = json.load(f)
+        print(f"Loaded {len(kb)} entries from knowledge base")
+    except Exception as e:
+        print(f"Error loading knowledge base: {e}")
+        kb = [] 
+    
     user_input = user_input.lower()
     
-   
     for item in kb:
         if "question" in item and item["question"].lower() in user_input:
             return item["answer"]
     
-    # keyword matching for more flexibility
     for item in kb:
         if "question" in item:
             question_words = set(item["question"].lower().split())
