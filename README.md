@@ -41,7 +41,7 @@ cd backend
 
 pnpm install
 
-cp .env.example .env
+touch .env
 # DATABASE_URL="postgresql://username:password@localhost:5432/stylesdesk"
 
 pnpx prisma migrate dev
@@ -54,7 +54,7 @@ pnpm run dev
 ```bash
 cd ai-agent
 
-cp config.py
+touch config.py
 #add the following variables to config.py
 HOST = "your-livekit-host"      
 API_KEY = "your-api-key"        
