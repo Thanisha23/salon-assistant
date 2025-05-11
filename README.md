@@ -54,11 +54,18 @@ pnpm run dev
 ```bash
 cd ai-agent
 
+cp config.py
+#add the following variables to config.py
+HOST = "your-livekit-host"      
+API_KEY = "your-api-key"        
+API_SECRET = "your-api-secret" 
+ROOM_NAME = "salon"            
+
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate 
 
-pip install websockets requests livekit-server-sdk
+pip install websockets requests livekit
 
 # IMPORTANT: Start components in this specific order
 
