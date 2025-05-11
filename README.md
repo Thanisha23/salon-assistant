@@ -34,6 +34,13 @@ StyleDesk AI consists of three main components:
 
 ---
 
+```bash
+# Clone the repository
+git clone https://github.com/Thanisha23/salon-assistant.git
+
+# Navigate to project directory
+cd salon-assistant
+```
 ### 🔧 Backend Setup
 
 ```bash
