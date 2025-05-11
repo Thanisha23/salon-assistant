@@ -102,7 +102,7 @@ pnpm run dev
 
 ```bash
 
-styledesk-ai/
+salon-assistant/
 │
 ├── ai-agent/ 
 ├── backend/  
